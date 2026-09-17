@@ -6,5 +6,12 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-price = float(input())
-is_member = int(input())
+price = float(input("ราคาสินค้าเต็ม"))
+is_member = int(input("เป็นสมาชิก"))
+if price :
+    print("ราคาสินค้าสุทธิ")
+elif is_member : 1
+elif is_member : 
+    print ("หากเป็นสมาชิก ลดทันที 10%")
+else :
+    print(0)
